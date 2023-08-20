@@ -21,10 +21,10 @@ void myMalloc(){
 }
 
 int No = 0;
-void MyRecursiveFunc(int i){
-    int j = 1; 
-    printf ("%d Address Stack=> %p \n",No++, &j);
-    MyRecursiveFunc(i);
+void Overflow(int i){
+    int check = 1; 
+    printf ("%d Address Stack=> %p \n",No++, &check);
+    Overflow(i);
 }
 
 int a,b,c,d,e;
@@ -45,6 +45,6 @@ int main()
     printf("Global Address => %p", &e); // Global
     printf("\n");
     int i = 0;
-    MyRecursiveFunc(i); // OverFlow
+    Overflow(i); // OverFlow
     return 0;
 }
