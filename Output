@@ -1,0 +1,33 @@
+Stack
+Stack Address => 0x16aea6e88
+Stack Address => 0x16aea6e58
+Stack Address => 0x16aea6e28
+Stack Address => 0x16aea6df8
+Stack Address => 0x16aea6dc8
+
+Heap
+Heap Address => 0x147606920
+Heap Address => 0x147606930
+Heap Address => 0x147606940
+Heap Address => 0x147606950
+Heap Address => 0x147606960
+
+Global
+Global Address => 0x104f60004
+Global Address => 0x104f60008
+Global Address => 0x104f6000c
+Global Address => 0x104f60010
+Global Address => 0x104f60014
+
+OverFlow
+.
+.
+.
+174295 Address Stack=> 0x16d280658 
+174296 Address Stack=> 0x16d280628 
+174297 Address Stack=> 0x16d2805f8 
+174298 Address Stack=> 0x16d2805c8 
+174299 Address Stack=> 0x16d280598 
+174300 Address Stack=> 0x16d280568 
+174301 Address Stack=> 0x16d280538 
+[1]    54597 segmentation fault  "/Users/wat/Desktop/ProjectOS/"memmo
